@@ -5,6 +5,7 @@ body,html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 10%;
 }
 
 hr {
@@ -38,32 +39,24 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-weight: 100;
-  display: flex;
-  justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
-	display: flex;
-  justify-content: center;
-  top: 103%;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  padding: 1rem 2rem; 
+	 
 }
 
 .btn-primary {
 	display: block;
 
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: #FF9C9C;
+  border-color: #FF9C9C;
+   }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #DE4B4B;
+  border-color: #DE4B4B;
   border-width: 5px;
   cursor: pointer;
 }
-  
+
